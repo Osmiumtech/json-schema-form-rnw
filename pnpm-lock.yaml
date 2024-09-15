@@ -8,15 +8,15 @@ importers:
 
   .:
     dependencies:
-      '@dwidge/components-rnw':
+      '@osmiumtech/components-rnw':
         specifier: ^0.0.2
-        version: 0.0.2(6bir2rh7bc6lwtjn4lkpty2e6y)
-      '@dwidge/hooks-react':
+        version: 0.0.2(bw5yjwv7ei6rgqlk4vcknbmyhu)
+      '@osmiumtech/hooks-react':
         specifier: ^0.0.1
         version: 0.0.1(react@18.3.1)
-      '@dwidge/utils-js':
-        specifier: ^0.0.1
-        version: 0.0.1
+      '@osmiumtech/utils-js':
+        specifier: ^0.0.3
+        version: 0.0.3
       '@rneui/base':
         specifier: 4.0.0-rc.7
         version: 4.0.0-rc.7(react-native-safe-area-context@4.11.0(react-native@0.75.3(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.3.5)(react@18.3.1)(typescript@5.6.2))(react@18.3.1))(react-native-vector-icons@10.1.0)(react-native@0.75.3(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.3.5)(react@18.3.1)(typescript@5.6.2))(react@18.3.1)
@@ -1197,6 +1197,40 @@ packages:
   '@npmcli/fs@3.1.1':
     resolution: {integrity: sha512-q9CRWjpHCMIh5sVyefoD1cA7PkvILqCZsnSOEUUivORLjxCO/Irmue2DprETiNgEqktDBZaM1Bi+jrarx1XdCg==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
+
+  '@osmiumtech/components-rnw@0.0.2':
+    resolution: {integrity: sha512-1u5rFrILUSO7Npm++dJ/JMlf2cqzi/adPXzyfizw8NE0Y2o5FkdASvBkl+LGh2xg8z2y9fyab+9cr+X7Ddf8pQ==, tarball: https://npm.pkg.github.com/download/@osmiumtech/components-rnw/0.0.2/01d49540b1ea8125c8e0337db04e8c1844463fa0}
+    engines: {node: '>=20'}
+    peerDependencies:
+      '@expo/vector-icons': ^14.0.2
+      '@osmiumtech/hooks-react': ^0.0.1
+      '@osmiumtech/react-native-toast': ^0.11.0
+      '@osmiumtech/utils-js': ^0.0.3
+      '@react-native-picker/picker': ^2.8.0
+      '@rneui/themed': 4.0.0-rc.8
+      react: ^18.2
+      react-native: ^0.75.3
+      react-native-safe-area-context: ^4.11.0
+
+  '@osmiumtech/hooks-react@0.0.1':
+    resolution: {integrity: sha512-Y0lfGT0FqdnQR94UiamuoPDX6yQGSjJ4RIKe+Wg7ShQz8xXItkC4TMo8LwCKwQmteFhodA4oPCBfjQ3SrXw8PA==, tarball: https://npm.pkg.github.com/download/@osmiumtech/hooks-react/0.0.1/c6c05fa7c04304f6cf5242dfce04a2314affa136}
+    engines: {node: '>=20'}
+    peerDependencies:
+      react: ^18.2
+
+  '@osmiumtech/react-native-toast@0.11.0':
+    resolution: {integrity: sha512-+XQ88dV39cEVoW4Jalu5e8izkoxF8dNkT5cFBF02s74fpEw5YHBL/rCjanjW8zw/QYWon7gX030to6RqjFOBTA==, tarball: https://npm.pkg.github.com/download/@osmiumtech/react-native-toast/0.11.0/db2b2c21d123121f027853df7caf9f652780d335}
+    engines: {node: '>=20'}
+    peerDependencies:
+      react: '*'
+      react-native: '*'
+      react-native-gesture-handler: '>=2.2.1'
+      react-native-reanimated: '>=2.8.0'
+      react-native-safe-area-context: '>=4.2.4'
+
+  '@osmiumtech/utils-js@0.0.3':
+    resolution: {integrity: sha512-xY6Jrqx3onVsHSaLjyaaJET9Ts/oJMNPLQN6KDqQRdPyr6RR8X/QQKyeUSZPGRWQ+SP3CZecWYCKpmxDLHTVlA==, tarball: https://npm.pkg.github.com/download/@osmiumtech/utils-js/0.0.3/220c3c79c3f5ea1bf042b34a6ee3e6f635f28ed2}
+    engines: {node: '>=20'}
 
   '@pkgjs/parseargs@0.11.0':
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
@@ -6181,27 +6215,7 @@ snapshots:
       react-native-reanimated: 3.10.1(@babel/core@7.25.2)(react-native@0.74.5(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.2.79)(react@18.2.0))(react@18.2.0)
       react-native-safe-area-context: 4.10.5(react-native@0.74.5(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.2.79)(react@18.2.0))(react@18.2.0)
 
-  '@backpackapp-io/react-native-toast@0.11.0(react-native-gesture-handler@2.19.0(react-native@0.75.3(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.3.5)(react@18.3.1)(typescript@5.6.2))(react@18.3.1))(react-native-reanimated@3.15.1(@babel/core@7.25.2)(react-native@0.75.3(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.3.5)(react@18.3.1)(typescript@5.6.2))(react@18.3.1))(react-native-safe-area-context@4.11.0(react-native@0.75.3(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.3.5)(react@18.3.1)(typescript@5.6.2))(react@18.3.1))(react-native@0.75.3(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.3.5)(react@18.3.1)(typescript@5.6.2))(react@18.3.1)':
-    dependencies:
-      react: 18.3.1
-      react-native: 0.75.3(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.3.5)(react@18.3.1)(typescript@5.6.2)
-      react-native-gesture-handler: 2.19.0(react-native@0.75.3(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.3.5)(react@18.3.1)(typescript@5.6.2))(react@18.3.1)
-      react-native-reanimated: 3.15.1(@babel/core@7.25.2)(react-native@0.75.3(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.3.5)(react@18.3.1)(typescript@5.6.2))(react@18.3.1)
-      react-native-safe-area-context: 4.11.0(react-native@0.75.3(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.3.5)(react@18.3.1)(typescript@5.6.2))(react@18.3.1)
-
   '@bcoe/v8-coverage@0.2.3': {}
-
-  '@dwidge/components-rnw@0.0.2(6bir2rh7bc6lwtjn4lkpty2e6y)':
-    dependencies:
-      '@backpackapp-io/react-native-toast': 0.11.0(react-native-gesture-handler@2.19.0(react-native@0.75.3(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.3.5)(react@18.3.1)(typescript@5.6.2))(react@18.3.1))(react-native-reanimated@3.15.1(@babel/core@7.25.2)(react-native@0.75.3(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.3.5)(react@18.3.1)(typescript@5.6.2))(react@18.3.1))(react-native-safe-area-context@4.11.0(react-native@0.75.3(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.3.5)(react@18.3.1)(typescript@5.6.2))(react@18.3.1))(react-native@0.75.3(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.3.5)(react@18.3.1)(typescript@5.6.2))(react@18.3.1)
-      '@dwidge/hooks-react': 0.0.1(react@18.3.1)
-      '@dwidge/utils-js': 0.0.1
-      '@expo/vector-icons': 14.0.2
-      '@react-native-picker/picker': 2.8.0(react-native@0.75.3(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.3.5)(react@18.3.1)(typescript@5.6.2))(react@18.3.1)
-      '@rneui/themed': 4.0.0-rc.8(@rneui/base@4.0.0-rc.7(react-native-safe-area-context@4.11.0(react-native@0.75.3(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.3.5)(react@18.3.1)(typescript@5.6.2))(react@18.3.1))(react-native-vector-icons@10.1.0)(react-native@0.75.3(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.3.5)(react@18.3.1)(typescript@5.6.2))(react@18.3.1))
-      react: 18.3.1
-      react-native: 0.75.3(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.3.5)(react@18.3.1)(typescript@5.6.2)
-      react-native-safe-area-context: 4.11.0(react-native@0.75.3(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.3.5)(react@18.3.1)(typescript@5.6.2))(react@18.3.1)
 
   '@dwidge/components-rnw@0.0.2(i3hguipaypoz5v7tcayztnpoza)':
     dependencies:
@@ -6218,10 +6232,6 @@ snapshots:
   '@dwidge/hooks-react@0.0.1(react@18.2.0)':
     dependencies:
       react: 18.2.0
-
-  '@dwidge/hooks-react@0.0.1(react@18.3.1)':
-    dependencies:
-      react: 18.3.1
 
   '@dwidge/json-schema-form-rnw@0.0.2(2sfqbizykny4n7kdknb5luo3s4)':
     dependencies:
@@ -6800,6 +6810,32 @@ snapshots:
   '@npmcli/fs@3.1.1':
     dependencies:
       semver: 7.6.3
+
+  '@osmiumtech/components-rnw@0.0.2(bw5yjwv7ei6rgqlk4vcknbmyhu)':
+    dependencies:
+      '@expo/vector-icons': 14.0.2
+      '@osmiumtech/hooks-react': 0.0.1(react@18.3.1)
+      '@osmiumtech/react-native-toast': 0.11.0(react-native-gesture-handler@2.19.0(react-native@0.75.3(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.3.5)(react@18.3.1)(typescript@5.6.2))(react@18.3.1))(react-native-reanimated@3.15.1(@babel/core@7.25.2)(react-native@0.75.3(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.3.5)(react@18.3.1)(typescript@5.6.2))(react@18.3.1))(react-native-safe-area-context@4.11.0(react-native@0.75.3(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.3.5)(react@18.3.1)(typescript@5.6.2))(react@18.3.1))(react-native@0.75.3(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.3.5)(react@18.3.1)(typescript@5.6.2))(react@18.3.1)
+      '@osmiumtech/utils-js': 0.0.3
+      '@react-native-picker/picker': 2.8.0(react-native@0.75.3(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.3.5)(react@18.3.1)(typescript@5.6.2))(react@18.3.1)
+      '@rneui/themed': 4.0.0-rc.8(@rneui/base@4.0.0-rc.7(react-native-safe-area-context@4.11.0(react-native@0.75.3(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.3.5)(react@18.3.1)(typescript@5.6.2))(react@18.3.1))(react-native-vector-icons@10.1.0)(react-native@0.75.3(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.3.5)(react@18.3.1)(typescript@5.6.2))(react@18.3.1))
+      react: 18.3.1
+      react-native: 0.75.3(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.3.5)(react@18.3.1)(typescript@5.6.2)
+      react-native-safe-area-context: 4.11.0(react-native@0.75.3(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.3.5)(react@18.3.1)(typescript@5.6.2))(react@18.3.1)
+
+  '@osmiumtech/hooks-react@0.0.1(react@18.3.1)':
+    dependencies:
+      react: 18.3.1
+
+  '@osmiumtech/react-native-toast@0.11.0(react-native-gesture-handler@2.19.0(react-native@0.75.3(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.3.5)(react@18.3.1)(typescript@5.6.2))(react@18.3.1))(react-native-reanimated@3.15.1(@babel/core@7.25.2)(react-native@0.75.3(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.3.5)(react@18.3.1)(typescript@5.6.2))(react@18.3.1))(react-native-safe-area-context@4.11.0(react-native@0.75.3(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.3.5)(react@18.3.1)(typescript@5.6.2))(react@18.3.1))(react-native@0.75.3(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.3.5)(react@18.3.1)(typescript@5.6.2))(react@18.3.1)':
+    dependencies:
+      react: 18.3.1
+      react-native: 0.75.3(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.3.5)(react@18.3.1)(typescript@5.6.2)
+      react-native-gesture-handler: 2.19.0(react-native@0.75.3(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.3.5)(react@18.3.1)(typescript@5.6.2))(react@18.3.1)
+      react-native-reanimated: 3.15.1(@babel/core@7.25.2)(react-native@0.75.3(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.3.5)(react@18.3.1)(typescript@5.6.2))(react@18.3.1)
+      react-native-safe-area-context: 4.11.0(react-native@0.75.3(@babel/core@7.25.2)(@babel/preset-env@7.25.4(@babel/core@7.25.2))(@types/react@18.3.5)(react@18.3.1)(typescript@5.6.2))(react@18.3.1)
+
+  '@osmiumtech/utils-js@0.0.3': {}
 
   '@pkgjs/parseargs@0.11.0':
     optional: true

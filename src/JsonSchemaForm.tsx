@@ -2,13 +2,17 @@
 // Distributed under the Boost Software License, Version 1.0.
 // https://www.boost.org/LICENSE_1_0.txt
 
-import { StyledPicker, StyledText, StyledView } from "@dwidge/components-rnw";
-import { BufferedState, useBufferedState } from "@dwidge/hooks-react";
+import {
+  StyledPicker,
+  StyledText,
+  StyledView,
+} from "@osmiumtech/components-rnw";
+import { BufferedState, useBufferedState } from "@osmiumtech/hooks-react";
 import { Button, CheckBox, Input, Text } from "@rneui/themed";
 import * as Ajv from "ajv";
 import AjvErrors from "ajv-errors";
 import addFormats from "ajv-formats";
-import { assert } from "@dwidge/utils-js";
+import { assert } from "@osmiumtech/utils-js";
 import {
   Dispatch,
   memo,
